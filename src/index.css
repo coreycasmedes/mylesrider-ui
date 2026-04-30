@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('./assets/ClashDisplay-Variable.woff2') format('woff2');
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans:    'ClashDisplay', sans-serif;
+  --font-display: 'ClashDisplay', sans-serif;
+  --font-mono:    'Space Mono', monospace;
+  --color-background: #201a23; /* shadow-grey-2 — darkest, page background    */
+  --color-foreground: #fbfbfb; /* white — body text on dark surfaces          */
+  --color-primary:    #631d76; /* velvet-orchid — brand color, CTAs           */
+  --color-secondary:  #9e4770; /* berry-blush — secondary accents             */
+  --color-muted:      #2e2532; /* shadow-grey — cards, dividers, quiet areas  */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
+
+@utility btn-chamfer {
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+}
