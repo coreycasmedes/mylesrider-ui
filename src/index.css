@@ -12,15 +12,16 @@
   --font-sans:    'ClashDisplay', sans-serif;
   --font-display: 'ClashDisplay', sans-serif;
   --font-mono:    'Space Mono', monospace;
-  --color-background: #201a23; /* shadow-grey-2 — darkest, page background    */
-  --color-foreground: #fbfbfb; /* white — body text on dark surfaces          */
-  --color-primary:    #631d76; /* velvet-orchid — brand color, CTAs           */
-  --color-secondary:  #9e4770; /* berry-blush — secondary accents             */
-  --color-muted:      #2e2532; /* shadow-grey — cards, dividers, quiet areas  */
+  --color-background: #10002b; /* dark-amethyst — page & navbar background    */
+  --color-foreground: #f0e6ff; /* near-white lavender — AA-compliant on dark  */
+  --color-primary:    #9d4edd; /* lavender-purple — vivid CTAs, active states */
+  --color-secondary:  #c77dff; /* mauve-magic — vivid lighter accent          */
+  --color-muted:      #240046; /* dark-amethyst-2 — cards, footer, surfaces   */
+  --color-accent:     #c8ff00; /* neon lime — store CTA only                  */
 }
 
 @layer base {
-  body {
+  html {
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
