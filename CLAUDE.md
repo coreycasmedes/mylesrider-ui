@@ -28,6 +28,7 @@ Five tokens. That's the entire palette.
 | `--color-primary` | `bg-primary`, `text-primary`, `border-primary` | Brand color, CTAs, links |
 | `--color-secondary` | `bg-secondary`, `text-secondary`, `border-secondary` | Secondary accents, supporting UI |
 | `--color-muted` | `bg-muted`, `text-muted`, `border-muted` | Subtle backgrounds, dividers, secondary text |
+| `--color-accent` | `bg-accent`, `text-accent` | Neon lime — store CTA button only |
 
 ---
 
